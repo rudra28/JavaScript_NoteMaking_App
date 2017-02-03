@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NOTELIST</title>
+	<!-- All the javascript and stylesheets are linked here -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js\notelistScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css\styles.css">
+	<link rel="stylesheet" href="css\myStyle.css">
+	<script src="js\sweetalert.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css\sweetalert.css">
+</head>
+<body id="body">
+	<div>
+	<center>
+	<div id="nav">
+	<h2 id="head"><font color="#C0C0C0">NOTELIST&nbsp;<img src="images/mark.png"/></font></h2>
+	  </div> 
+
+             
+  <div>
+        <!-- Add Note-->
+	   <table id="addTable"><caption><h3>ADD NOTE &nbsp;<img src="images/symbols.png"/></h3></caption><tr><td>Name &nbsp;<img src="images/black.png"/></td><td> <input id="nameList" type="text"></input></td></tr>
+		<tr><td>Subject &nbsp;<img src="images/sub.png"/></td><td> <input id="subjectList" type="text"></input></td></tr>
+	    <tr><td>Message &nbsp;<img src="images/msg.png"/></td><td class="td"><input id="textList" type="text"></input></td></tr>
+		 <tr><td colspan="2"><button id="add-btn" class="btn btn-success">Add Note &nbsp;<img src="images/add.png"/></button></td></tr>
+	   </table>
+	  </div>
+
+   <div class="row">
+       <div class="col-md-6" id="viewDetails"></div>
+       <div class="col-md-6" id="noteDetails"></div>
+   </div>
+
+   <div id="footer">
+	  &copy designed by &nbsp; RUDRA NARAYAN &nbsp; CWID: A20361827
+   </div>
+</body>
+</html>
